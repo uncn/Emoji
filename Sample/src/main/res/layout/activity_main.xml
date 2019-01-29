@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.sunzn.emoji.library.EmojiEditText
+        android:id="@+id/etv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="start"
+        app:etv_icon_size="60" />
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="35dip"
+        android:horizontalSpacing="0dip"
+        android:numColumns="auto_fit"
+        android:scrollbars="vertical"
+        android:verticalSpacing="0dip" />
+
+</LinearLayout>
