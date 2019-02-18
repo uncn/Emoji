@@ -3,6 +3,11 @@
 [![](https://jitpack.io/v/ShortStickBoy/Emoji.svg)](https://jitpack.io/#ShortStickBoy/Emoji)
 [![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
+A simple and efficient Emoji input box, you can customize Emoji expressions as needed.
+
+### ScreenShot
+![sample](./screenshot/Demo.gif)
+
 ### Gradle
 
 To get a Git project into your build:
