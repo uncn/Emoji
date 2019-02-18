@@ -2,9 +2,9 @@
 
 ### Attribute
 
-| Attribute     | Describe               | Additional                                                 |
-| ------------- | ---------------------- | ---------------------------------------------------------- |
-| etv_icon_size | Footer status for load | If you setLoadMoreListener, this value must never be null. |
+| Attribute     | Describe      | Additional                                                         |
+| ------------- | ------------- | ------------------------------------------------------------------ |
+| etv_icon_size | Size of emoji | If you don't set this value, it will use getTextSize() by default. |
 
 ### License
 ```
