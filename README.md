@@ -1,5 +1,31 @@
 # Emoji
 
+[![](https://jitpack.io/v/ShortStickBoy/Emoji.svg)](https://jitpack.io/#ShortStickBoy/Emoji)
+[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+### Gradle
+
+To get a Git project into your build:
+
+**Step 1**. Add the JitPack repository to your build file
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+**Step 2**. Add the dependency
+
+```groovy
+dependencies {
+    implementation 'com.github.ShortStickBoy:Emoji:1.0.0'
+}
+```
+
 ### Attribute
 
 | Attribute     | Describe      | Additional                                                         |
