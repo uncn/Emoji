@@ -27,7 +27,7 @@ public class EmojiEditText extends AppCompatEditText {
 
     private void init(AttributeSet attrs) {
         TypedArray attribute = getContext().obtainStyledAttributes(attrs, R.styleable.EmojiEditText);
-        size = attribute.getInteger(R.styleable.EmojiEditText_etv_icon_size, 60);
+        size = attribute.getInteger(R.styleable.EmojiEditText_etv_icon_size, (int) getTextSize());
         attribute.recycle();
     }
 
