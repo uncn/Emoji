@@ -1,5 +1,11 @@
 # Emoji
 
+### Attribute
+
+| Attribute     | Describe               | Additional                                                 |
+| ------------- | ---------------------- | ---------------------------------------------------------- |
+| etv_icon_size | Footer status for load | If you setLoadMoreListener, this value must never be null. |
+
 ### License
 ```
 Copyright [2018-2019] sunzn
