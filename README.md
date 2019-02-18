@@ -26,6 +26,33 @@ dependencies {
 }
 ```
 
+### Use
+
+**Step 1**. Add the EmojiEditText to your layout file
+
+```xml
+<com.sunzn.emoji.library.EmojiEditText
+    android:id="@+id/etv"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="start"
+    app:etv_icon_size="60" />
+```
+
+**Step 2**. Insert EmojiBean to EmojiEditText
+
+```java
+EmojiEditText mEditText = findViewById(R.id.etv);
+EmojiBean bean = mAdapter.getItem(position);
+mEditText.insert(bean);
+```
+
+**Step 3**. Get EmojiEditText value
+
+```java
+String value = mEditText.getText().toString();
+```
+
 ### Attribute
 
 | Attribute     | Describe      | Additional                                                         |
